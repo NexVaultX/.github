@@ -2,24 +2,24 @@
 
 # NexVaultX
 
-### Secure, scalable asset management — powered by Rust
+### Open-source asset management, built for security and scale
 
-NexVaultX is an open-source platform for hosting and distributing assets. Upload, validate, scan, store, search, and version your files — from mods and plugins to any binary artifact — through a high-performance Rust backend.
+NexVaultX is an open-source organization building a platform for hosting and distributing assets — from mods and plugins to any binary artifact.
 
 </div>
 
 ---
 
-## What is NexVaultX?
+## About NexVaultX
 
-NexVaultX is an asset management platform built around two components:
+NexVaultX is a platform for secure, scalable asset management, split across focused repositories:
 
 - **Frontend** — the web application and user experience
 - **Rust backend daemon** — the central backend service for asset handling, search, security, storage, and database operations
 
 Every uploaded asset is treated as **untrusted input**: files are validated, hashed, scanned for malware, and inspected before they can be published.
 
-## Features
+## Platform Features
 
 - **Native Rust search** — fast, typo-tolerant fuzzy search with relevance scoring, filtering, sorting, and pagination. No external search engine dependency.
 - **Malware & security scanning** — file type validation, archive inspection, path traversal and archive-bomb detection, static analysis, and a quarantine state for suspicious assets.
@@ -31,10 +31,10 @@ Every uploaded asset is treated as **untrusted input**: files are validated, has
 ## Architecture
 
 ```text
-NexVaultX Frontend
+NexVaultX Frontend (web app)
         │
         ▼
-   Rust Backend
+   Rust Backend Daemon
         │
         ├── API
         ├── Authentication
@@ -49,17 +49,19 @@ NexVaultX Frontend
               └── Search Indexer
 ```
 
-## Status
-
-NexVaultX is in early development. The current milestone is establishing the Rust backend daemon as the foundation for the API, asset management, storage, database access, native search, malware scanning, and background processing.
-
-📋 [View the full roadmap & TODO →](assets/TODO.md)
-
 ## Repositories
 
 | Repository | Description |
 |------------|-------------|
 | `.github` | Organization profile and meta |
+
+*More repositories coming soon.*
+
+## Roadmap
+
+NexVaultX is in early development. The current milestone is establishing the Rust backend daemon as the foundation for the API, asset management, storage, database access, native search, malware scanning, and background processing.
+
+📋 [View the full roadmap & TODO →](assets/TODO.md)
 
 ---
 
