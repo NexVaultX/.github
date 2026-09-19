@@ -30,10 +30,12 @@ Every uploaded asset is treated as **untrusted input**: files are validated, has
 
 ---
 
-![stars: 4](https://laibo.www0abdb.workers.dev/github/NexVaultX/frontend/stars?label=stars&style=gradient&template=custom&labelColor=%23241f31&messageColor=%233584e4&textColor=%23ffffff&radius=4&height=30&fontSize=14)
+<div align="center">
 
-![license: Apache-2.0](https://laibo.www0abdb.workers.dev/github/NexVaultX/frontend/license?label=stars&style=gradient&template=custom&labelColor=%23000000&messageColor=%2362a0ea&textColor=%23ffffff&radius=3&height=30&fontSize=15)
 
-![forks: 0](https://laibo.www0abdb.workers.dev/github/NexVaultX/frontend/forks?label=stars&style=gradient&template=custom&labelColor=%23000000&messageColor=%2362a0ea&textColor=%23ffffff&radius=3&height=30&fontSize=15)
+![License: Apache-2.0](https://laibo.www0abdb.workers.dev/github/NexVaultX/frontend/license?label=License&style=gradient&template=custom&labelColor=%23000000&messageColor=%2362a0ea&textColor=%23ffffff&radius=3&height=30&fontSize=15)    ![stars: 4](https://laibo.www0abdb.workers.dev/github/NexVaultX/frontend/stars?label=stars&style=gradient&template=custom&labelColor=%23000000&messageColor=%2362a0ea&textColor=%23ffffff&radius=3&height=30&fontSize=15)
+
+</div>
+
 
 
